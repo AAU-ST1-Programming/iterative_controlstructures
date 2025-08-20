@@ -31,6 +31,7 @@ To use this template:
 - [Se Videoerne i på dette link](https://panopto.aau.dk/Panopto/Pages/Sessions/List.aspx?folderID=8b74191c-5c90-44f3-88eb-b2db008ce028)
 
 
+
 Til hver lektion skal man forvente følgende:
 
 Før/efter Kursusgang:
