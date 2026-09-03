@@ -1,5 +1,7 @@
 # Iterative Kontrol Strukturerer
 
+![files/shared_overview_table.png](files/shared_overview_table.png)
+
 - **PowerPoint slideshow**: `iterative_controlstructures.pptx`
 - **questions.docx** – `Indeholder spørgsmål som i får i forbindelsen med forlæsningen.`
 - **Lecture specific files** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
