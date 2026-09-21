@@ -19,10 +19,10 @@ Martin har netop fundet ud af, at hans printer er gået i stykker og i stedet fo
 2. Opret en ny fil kaldet `hello_for_loop.c`
 3. Definer `main()` funktion
 4. I `main()`:
-   a. Deklarer en integer variabel `i` initialiseret til 0
-   b. Lav et `for`-loop som kører mens `i` er mindre end 100
-   c. Indeni loopets kodeblok `{ }` udskriver du værdien af `i` på formatet: `Tal: X`
-   d. Inkrementer `i` med 1 i hver iteration
+    - a. Deklarer en integer variabel `i` initialiseret til 0
+    - b. Lav et `for`-loop som kører mens `i` er mindre end 100
+    - c. Indeni loopets kodeblok `{ }` udskriver du værdien af `i` på formatet: `Tal: X`
+    d. Inkrementer `i` med 1 i hver iteration
 5. Kør programmet og bekræft outputtet viser: Tal: 0, Tal: 1, Tal: 2, ... Tal: 99
 
 6. **PBL:** Martin spørger: *"Hvad sker der, hvis I ændrer startværdien til 1, og betingelsen til i <= 100? Hvilke tal bliver udskrevet nu, og hvorfor?"*
@@ -99,10 +99,10 @@ Martin har en gammel regnemaskine, der kun kan tælle ned. Han har bedt jer om a
 
 1. Opret en ny fil kaldet `itr1.c`
 2. I `main()`:
-   a. Deklarer en integer variabel `i` initialiseret til 5
-   b. Lav et loop som tæller 1 ned i hver iteration
-   c. Loopet skal køre indtil `i` er mindre end -5
-   d. Udskriv værdien af `i` i hver iteration
+    - a. Deklarer en integer variabel `i` initialiseret til 5
+    - b. Lav et loop som tæller 1 ned i hver iteration
+    - c. Loopet skal køre indtil `i` er mindre end -5
+    d. Udskriv værdien af `i` i hver iteration
 3. Kør programmet og bekræft outputtet viser: 5 4 3 2 1 0 -1 -2 -3 -4 -5
 
 4. **PBL:** Martin spørger: *"Hvad sker der, hvis I starter ved 10 i stedet for 5, men holder de andre betingelser? Hvilke tal bliver printet?"*
@@ -136,8 +136,8 @@ Martin har opdaget, at han kun kan lide lige tal. *"Alle ulige tal er for uorden
 
 1. Opret en ny fil kaldet `itr2.c`
 2. I `main()`:
-   a. Lav et loop som itererer gennem alle tal fra 0 til 10
-   b. Udskriv kun de lige tal i dette interval
+    - a. Lav et loop som itererer gennem alle tal fra 0 til 10
+    - b. Udskriv kun de lige tal i dette interval
 3. Kør programmet
 4. Sammenlign din løsning med dine medstuderende
 
@@ -169,11 +169,11 @@ Martin har fået en ny ESP32 og er fascineret af, at den kan tælle. *"Den gamle
 **The Task:**
 
 1. I Arduino IDE:
-   a. Lav et nyt projekt kaldet `esp32_1`
+    - a. Lav et nyt projekt kaldet `esp32_1`
 2. I `setup()`:
-   a. Start seriell kommunikation med `Serial.begin(115200)`
-   b. Lav et loop, som tæller tallene 0, 2, 4, 6, 8, 10
-   c. Udskriv hver værdi til Serial Monitor
+    - a. Start seriell kommunikation med `Serial.begin(115200)`
+    - b. Lav et loop, som tæller tallene 0, 2, 4, 6, 8, 10
+    - c. Udskriv hver værdi til Serial Monitor
 3. Upload og kør programmet
 
 4. **PBL:** Martin spørger: *"Kan I ændre programmet til at tælle op fra 0 til 20, men kun udskrive hver tredje værdi (0, 3, 6, 9, ...)?"*
@@ -240,15 +240,17 @@ Martin har fundet et gammelt program, der udskriver primtal, men det ser ud som 
 
 Programmet herunder udskriver alle primtal op til 100. Omskriv det med Tuborg-klammer `{}` og noter/comments.
 
+![files/loop2.png](files/loop2.png)
+
 1. **Opgave a:** Forstå hvordan programmet virker
-   a. Analyser flowet af koden
-   b. Identificer hvilke loops og conditional-structurer er nested under hinanden
-   c. Tilføj de manglende Tuborg-klammer `{}`
-   d. Tilføj kommentarer, der forklarer hver sektion
+    - a. Analyser flowet af koden
+    - b. Identificer hvilke loops og conditional-structurer er nested under hinanden
+    - c. Tilføj de manglende Tuborg-klammer `{}`
+    d. Tilføj kommentarer, der forklarer hver sektion
 2. **Opgave b (DEBUGGING):** Hvor mange gange har vi været inde i j-loopet's codeblok, når i = 23?
-   a. Benyt en `int counter = 0;`
-   b. Inkrementer `counter++` hver gang man kommer ind i j-loop codeblokket
-   c. Udskriv counter når i = 23
+    - a. Benyt en `int counter = 0;`
+    - b. Inkrementer `counter++` hver gang man kommer ind i j-loop codeblokket
+    - c. Udskriv counter når i = 23
 
 3. **PBL:** Martin spørger: *"Kan I modificere programmet til at udskrive alle primtal op til 200 i stedet for 100?"*
 
@@ -284,9 +286,9 @@ Martin har lavet en chatbot til sin ESP32, men den forstår kun én ting ad gang
 3. Lav programmet til at udskrive "waiting for input: "
 4. Modtag ét char input fra brugeren ved hjælp af `scanf(" %c", &c);`
 5. Lav et `switch`-statement, som:
-   a. Skriver "hej med dig" hvis `c` er 'y' eller 'Y'
-   b. Skriver "Farvel med dig" og lukker programmet hvis `c` er 'q' eller 'Q'
-   c. Skriver "Hvad vil du egentlig?" for alle andre input
+    - a. Skriver "hej med dig" hvis `c` er 'y' eller 'Y'
+    - b. Skriver "Farvel med dig" og lukker programmet hvis `c` er 'q' eller 'Q'
+    - c. Skriver "Hvad vil du egentlig?" for alle andre input
 6. Indsæt hele `printf`, `scanf`, og `switch`-statementet i et `while`-loop
 7. `while`-loopet skal stoppe, når brugeren indtaster 'q' eller 'Q'
 8. Kør og test programmet
